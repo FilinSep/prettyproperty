@@ -1,0 +1,10 @@
+username=
+password=
+
+prettyproperty;
+
+{{ pp.title("Pprop example") }}
+
+{{ pp.textbox([1, 1], "username") }}
+{{ pp.textbox([1, 2], "password") }}
+{{ pp.submit([1, 3]) }}
